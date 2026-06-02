@@ -1,0 +1,87 @@
+body{
+ font-family: "Roboto", "Fallback", sans-serif;
+ color: #2E2F42;
+}
+ul{
+ list-style: none;
+}
+.logo{
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 21px;
+ letter-spacing: 3%;
+}
+header a{
+ text-decoration: none;
+ color: inherit;
+}
+.logo span{
+ color: #4D5AE5;
+}
+nav{
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 24px;
+ letter-spacing: 2%;
+}
+address{
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 400;
+ letter-spacing: 2%;
+ font-style: normal;
+ color: #434455;
+}
+#hero_section{
+ background-color: #2E2F42;
+}
+h1{
+ width: 496px;
+ height: 120px;
+ color: #FFFFFF;
+ font-weight: 700;
+ font-size: 56px;
+}
+button{
+ color: #FFFFFF;
+ background-color: #4D5AE5;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 4%;
+ padding: 16px 32px;
+ border-radius: 4px;
+ font-weight: 500;
+ border: none;
+}
+h3{
+ font-size: 20px;
+ line-height: 24px;
+ letter-spacing: 2%;
+ font-weight: 500;
+}
+main p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 2%;
+}
+
+h2{
+ font-size: 36px;
+ line-height: 40px;
+ letter-spacing: 2%;
+ font-weight: 700;
+}
+.team{
+ width: 264px;
+ height: 260px;
+}
+.portfolio{
+ width: 360px;
+ height: 300px;
+}
+#portfolio_section li{
+ border: solid 1px #E7E9FC;
+}
