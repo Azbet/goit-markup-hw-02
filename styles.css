@@ -9,7 +9,7 @@ ul{
  font-family: "Raleway", sans-serif;
  font-weight: 700;
  font-size: 18px;
- line-height: 21px;
+ line-height: 1.3em;
  letter-spacing: 3%;
 }
 header a{
@@ -23,12 +23,12 @@ nav{
  text-decoration: none;
  font-size: 16px;
  font-weight: 500;
- line-height: 24px;
+ line-height: 1.5em;
  letter-spacing: 2%;
 }
 address{
  font-size: 16px;
- line-height: 24px;
+ line-height: 1.5em;
  font-weight: 400;
  letter-spacing: 2%;
  font-style: normal;
@@ -48,29 +48,30 @@ button{
  color: #FFFFFF;
  background-color: #4D5AE5;
  font-size: 16px;
- line-height: 24px;
+ line-height: 1.5em;
  letter-spacing: 4%;
  padding: 16px 32px;
  border-radius: 4px;
  font-weight: 500;
  border: none;
+ cursor: pointer;
 }
 h3{
  font-size: 20px;
- line-height: 24px;
+ line-height: 1.2em;
  letter-spacing: 2%;
  font-weight: 500;
 }
 main p{
  font-size: 16px;
  font-weight: 400;
- line-height: 24px;
+ line-height: 1.5em;
  letter-spacing: 2%;
 }
 
 h2{
  font-size: 36px;
- line-height: 40px;
+ line-height: 1.1em;
  letter-spacing: 2%;
  font-weight: 700;
 }
@@ -84,4 +85,8 @@ h2{
 }
 #portfolio_section li{
  border: solid 1px #E7E9FC;
+}
+footer{
+ background-color: #2E2F42;
+ color: #FFFFFF;
 }
