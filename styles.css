@@ -10,7 +10,7 @@ ul{
  font-weight: 700;
  font-size: 18px;
  line-height: 1.3em;
- letter-spacing: 3%;
+ letter-spacing: 0.03em;
 }
 header a{
  text-decoration: none;
@@ -24,15 +24,20 @@ nav{
  font-size: 16px;
  font-weight: 500;
  line-height: 1.5em;
- letter-spacing: 2%;
+ letter-spacing: 0.02em;
+}
+nav a:hover{
+ color: #404BBF;
 }
 address{
  font-size: 16px;
  line-height: 1.5em;
- font-weight: 400;
- letter-spacing: 2%;
+ letter-spacing: 0.02em;
  font-style: normal;
  color: #434455;
+}
+address a:hover{
+ color: #404BBF;
 }
 #hero_section{
  background-color: #2E2F42;
@@ -43,36 +48,39 @@ h1{
  color: #FFFFFF;
  font-weight: 700;
  font-size: 56px;
+ line-height: 60px;
 }
 button{
  color: #FFFFFF;
  background-color: #4D5AE5;
  font-size: 16px;
  line-height: 1.5em;
- letter-spacing: 4%;
+ letter-spacing: 0.04em;
  padding: 16px 32px;
  border-radius: 4px;
  font-weight: 500;
  border: none;
  cursor: pointer;
 }
+button:hover{
+ background-color: #404BBF;
+}
 h3{
  font-size: 20px;
  line-height: 1.2em;
- letter-spacing: 2%;
+ letter-spacing: 0.02em;
  font-weight: 500;
 }
 main p{
  font-size: 16px;
- font-weight: 400;
  line-height: 1.5em;
- letter-spacing: 2%;
+ letter-spacing: 0.02em;
 }
 
 h2{
  font-size: 36px;
  line-height: 1.1em;
- letter-spacing: 2%;
+ letter-spacing: 0.02em;
  font-weight: 700;
 }
 .team{
@@ -89,4 +97,7 @@ h2{
 footer{
  background-color: #2E2F42;
  color: #FFFFFF;
+}
+#our-team{
+ background-color: #F4F4FD;
 }
